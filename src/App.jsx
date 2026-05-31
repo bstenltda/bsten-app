@@ -3,7 +3,7 @@ import React, { useState, useRef, useEffect } from "react";
 // --- CONFIGURAÇÕES ---
 const WA_PHONE = "5519971478541";
 // SUBSTITUA PELA SUA URL DO GOOGLE APPS SCRIPT
-const GOOGLE_SHEET_URL = "SUA_URL_DO_GOOGLE_SCRIPT_AQUI"; 
+const GOOGLE_SHEET_URL = "SUA_URL_DO_GOOGLE_SCRIPT_AQUI";
 
 const STEPS = [
   { id: "doc", title: "CPF ou CNPJ", sub: "Informe o documento do titular" },
