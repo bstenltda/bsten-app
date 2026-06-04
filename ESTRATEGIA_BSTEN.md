@@ -1,82 +1,100 @@
-# 📌 Estratégia BSTEN — versão atual (atualizado em 04/06/2026)
+# 📌 Estratégia BSTEN — v2 (atualizado em 04/06/2026)
 
-> Documento vivo de estratégia. **Sem segredos** (senhas/keys ficam no `.env` do servidor / cofre).
-> Sempre que a estratégia mudar, atualizar aqui.
-
----
-
-## 🔄 MUDANÇA-CHAVE (jun/2026): produto ÚNICO e nacional
-
-A BSTEN **simplificou o portfólio** para um só produto, vendido no **Brasil inteiro**:
-
-- **Produto:** **BSTEN Solo** (rastreador 4G, homologado Anatel)
-- **Aparelho:** **R$ 139,97** — compra única, é do cliente · frete grátis (PAC), de Sumaré-SP · prazo 5–15 dias úteis
-- **Mensalidade:** **R$ 35,97/mês**
-- **Fidelidade:** nenhuma (cancela quando quiser)
-- **Abrangência:** **nacional** — qualquer cidade do Brasil
-- **Instalação:** por conta do cliente (lista de instaladores)
-- **Preço transparente desde o início** (não esconde mais o valor)
-
-### ❌ O que saiu (não usar mais)
-- Planos **Start** e **Plus** (não existem mais)
-- Roteamento por cidade / **DDD 19** / **"11 cidades"** (Campinas) — só permanecem como *regra de proibição* pro bot NÃO citar
-- Taxa de R$ 200 / permanência de 12 meses
+> Documento vivo. **Sem segredos** (ficam no `.env`/cofre). Esta v2 incorpora o reposicionamento **BSTEN PRO BLINDADO**.
 
 ---
 
-## 🎯 Funil de venda
+## 🎯 Posicionamento (v2)
 
-```
-Anúncio (Meta) ──> Landing (adsbs.com.br)  ──┐
-                                             ├─> WhatsApp (bot) ─> Atendente humano
-Anúncio (Click-to-WhatsApp) ─────────────────┘
-```
+A BSTEN **não vende rastreamento** — vende **controle, proteção e autonomia**.
 
-- **Landing:** https://adsbs.com.br/  (vídeo + CTA WhatsApp)
-- **WhatsApp de atendimento (bot):** `5519971478541` (número verificado "Atendimento Bsten Rastreamento")
-- **Bot:** acolhe, apresenta o Solo com preço transparente, qualifica e encaminha pro humano (seg–sex 9h–17h)
-- **Painel comercial:** https://painel.adsbs.com.br (app `bsten-admin` no VPS)
+- Controle do veículo na palma da mão · Bloqueio remoto · Monitoramento em tempo real · Autonomia · Proteção sem burocracia
+- **Mensagem principal:** *"Saiba onde seu veículo está e tenha o poder de agir quando precisar."*
 
 ---
 
-## 📣 Estratégia de anúncios (Meta) — conta `bsten` (2042341952909252, BRL)
+## 📦 Produto
 
-**Princípio:** como o produto é nacional, **todas as campanhas miram o Brasil inteiro**. Otimizar para a ação que indica comprador (visita à página / conversa no WhatsApp), não para clique barato.
+- **Nome comercial (priorizar):** **BSTEN PRO BLINDADO**
+- **Nome interno do plano:** BSTEN Solo (não destacar na comunicação)
 
-| Campanha | Objetivo / otimização | Público | Status |
-|---|---|---|---|
-| **BSTEN_LANDING_BR_CONVERSAO_v1** | Tráfego → Visualização de Página | Brasil | 🟢 Ativa (R$ 25/dia) |
-| **BSTEN_WHATSAPP_BR_CONVERSAS_v1** | Engajamento → Conversas (Click-to-WhatsApp) | Brasil | 🟡 Pausada |
-| **BSTEN_LEADS_…_CADASTRO_v1** | Cadastros (Lead Form) | ⚠️ era Campinas → **deve ser Brasil** | 🟡 Pausada |
+**KIT BSTEN PRO BLINDADO (o que o cliente recebe):**
+- Rastreador 4G blindado
+- **Módulo de Bloqueio Remoto Incluso** (parte fundamental — NUNCA chamar de "relé grátis"/brinde)
+- Chip multioperadora
+- Aplicativo BSTEN PRO
+- Frete grátis · Sem fidelidade
+- **15 dias de uso da plataforma sem cobrança**
 
-### Copy padrão (preço transparente, sem citar cidade)
-> "Rastreador 4G com app: rastreie e bloqueie pelo celular. **R$ 139,97** o aparelho + **R$ 35,97/mês**, sem fidelidade, frete grátis pra todo o Brasil. Chame no WhatsApp."
-
----
-
-## ✅ Pendências / próximos passos
-
-1. **Lead Form:** trocar segmentação de *Campinas 45 km* → **Brasil** (Start/Plus não existem mais). Renomear p/ `BR_Nacional_LeadForm`.
-2. **WhatsApp Conversas:** apontar destino para `5519971478541` (estava no nº errado 99887-5860/Vendas) → depois **ativar**.
-3. **Pixel/landing:** instalar rastreamento de **play do vídeo** (`VideoPlay`) e **clique no WhatsApp** (`Contact`) — o `Contact` permite otimizar a campanha por conversão real.
-4. **Painel `bsten-admin`:** manter no ar (`pm2 restart bsten-admin --update-env` quando cair) — senão o painel zera e o webhook de leads para.
+**Investimento:** equipamento **R$ 139,97** + plataforma **R$ 35,97/mês**
 
 ---
 
-## 🔧 Ativos técnicos (referência — não-secretos)
+## 🧠 Regras de comunicação (neurovendas)
 
-- **Meta Pixel ID:** `1889198695087796`
-- **Página Facebook:** Bsten (`1101848589687022`) · **Instagram:** `bsten_ofc`
+- **Vender consequências, não componentes.**
+  - ❌ rastreador / relé / chip → ✅ localização em tempo real / controle pelo celular / bloqueio remoto / mais autonomia / mais proteção
+- **Bloqueio = incluso e essencial** ("Módulo de Bloqueio Remoto Incluso" / "Sistema de Bloqueio BSTEN Incluso").
+- **15 dias sem cobrança = redutor de risco**, não promoção: *"Instale, utilize e conheça o sistema. A cobrança da plataforma começa só após os 15 dias."* (evitar linguagem promocional).
+
+---
+
+## 🛒 Novo fluxo comercial (valor → preço)
+
+1. **Interesse** → "Olá! 😊 O *BSTEN PRO BLINDADO* permite acompanhar e bloquear seu veículo pelo celular. É para carro, moto ou caminhão?"
+2. **Necessidade** → "O principal objetivo é segurança contra roubo ou acompanhamento da localização?"
+3. **Solução** → (segurança) "Além do rastreamento em tempo real, você bloqueia o veículo pelo app." / (monitoramento) "Você acompanha localização, histórico de rotas e alertas no celular."
+4. **Kit** → apresentar o KIT BSTEN PRO BLINDADO
+5. **Preço** → R$ 139,97 equipamento + R$ 35,97/mês plataforma
+6. **Transferência** → "Deseja que eu encaminhe para finalizar seu pedido?"
+
+> ⚠️ **CONFLITO A RESOLVER NO BOT:** o GERAL atual manda **revelar preço logo de cara** ("transparência no preço desde o início"). O novo fluxo quer **preço só na ETAPA 5**, depois do valor. **Os docs do bot precisam ser reescritos** pra seguir valor→necessidade→solução→kit→preço, senão o bot contradiz a nova estratégia.
+
+---
+
+## 🌐 Landing page (nova estrutura)
+
+1. **Herói:** título *"Controle seu veículo na palma da mão."* · sub *"Rastreamento em tempo real e bloqueio remoto pelo app BSTEN PRO."* · botão **"Quero proteger meu veículo"**
+2. **Vídeo principal** (equipamento + app + bloqueio)
+3. **O que você recebe:** KIT (rastreador blindado, módulo de bloqueio, chip multioperadora, app)
+4. **Benefícios:** localização tempo real · bloqueio pelo celular · alertas inteligentes · histórico de rotas · função âncora · Street View
+5. **Condições:** R$ 139,97 equip. · R$ 35,97/mês · frete grátis · sem fidelidade · 15 dias sem cobrança
+
+---
+
+## 🎬 Vídeos (criar 3 curtos)
+1. **Produto** — BSTEN PRO BLINDADO (equipamento físico)
+2. **App** — rastreamento em tempo real
+3. **Bloqueio** — bloqueio feito pelo app
+
+---
+
+## 📣 Campanhas (Meta) — impacto da v2
+- Atualizar **copy de todas** para o reposicionamento (controle/proteção, "BSTEN PRO BLINDADO", value→price).
+- Campanhas ativas: **Landing (Brasil)** e **WhatsApp Conversas (Brasil)**; **Lead Form** pendente de virar Brasil.
+- Criativos: testar 5 Reels @bsten_ofc; criar os 3 vídeos novos (produto/app/bloqueio).
+
+---
+
+## ✅ Pendências
+1. **Reescrever docs do bot** p/ novo fluxo (valor→preço) + nome PRO BLINDADO + 15 dias sem cobrança + bloqueio incluso.
+2. **Lead Form** → segmentação Brasil.
+3. **WhatsApp:** saudação + respostas rápidas (qualificação).
+4. **Painel `bsten-admin`:** monitor + auto-restart + backup (estanca perda de lead).
+5. **24/7:** cobrir leads fora do horário (bot fecha + follow-up).
+6. **Segurança/LGPD:** rotacionar Claude key e senha do painel; consentimento/retenção de PII.
+
+---
+
+## 🔧 Ativos técnicos (não-secretos)
+- **Meta Pixel:** `1889198695087796` · **Página:** Bsten (`1101848589687022`) · **IG:** `bsten_ofc`
 - **WhatsApp atendimento:** `5519971478541`
-- **Domínios:** `adsbs.com.br` (landing) · `painel.adsbs.com.br` (painel)
-- **Servidor:** VPS Hetzner (Ubuntu) — app em `/opt/bsten-admin` (PM2)
-
-> 🔐 Credenciais e segredos: ver `BSTEN — Mapa de Acessos` + `.env` no servidor / cofre. **Nunca** commitar segredos aqui.
+- **Landing:** adsbs.com.br · **Painel:** painel.adsbs.com.br · **VPS Hetzner** (`/opt/bsten-admin`, PM2)
+> 🔐 Segredos: `.env`/cofre — nunca commitar aqui.
 
 ---
 
-## 💡 Aprendizados de mídia (jun/2026)
-
-- Otimizar por **"cliques"** trazia tráfego curioso (CTR alto, CPC baixíssimo, mas ~74% sumiam entre clique e landing) → mudamos para **Visualização de Página / Conversas**.
-- O **Click-to-WhatsApp** é o formato mais aderente: leva direto pro bot que já vende, sem o vazamento da landing.
-- Medir **play do vídeo** e **clique no WhatsApp** na landing dá sinal de intenção e alimenta a otimização (via Pixel `1889198695087796`).
+## 💡 Aprendizados de mídia
+- Otimizar por clique trazia curioso → mudamos p/ Visualização de Página / Conversas.
+- Click-to-WhatsApp cai direto no bot (sem vazamento da landing).
+- Maior ralo de dinheiro: **leads fora do horário** (anúncio 24/7 vs atendimento 9–17h) e **painel fora do ar** (perde lead pago).
