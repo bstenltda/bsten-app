@@ -1,8 +1,8 @@
-# 📦 BSTEN PRO BLINDADO — Arquivos do Bot (Botclick)
+# 📦 BSTEN PRO BLINDADO — Arquivos do Bot (Botclick) — v2 (correções de atendimento)
 
-Produto único nacional. Fluxo valor→preço, 15 dias sem cobrança, sem legado (Start/Plus/11 cidades).
+Correções aplicadas: localização/abrangência nacional, nunca CPF p/ pergunta simples, lead ≠ ativação (IMEI), instalação padronizada, vídeo, alarme, "perguntas rápidas" (responde antes de vender), remoção total de BSTEN Solo/Smart/Start/Plus.
 
-## Onde colocar cada arquivo
+## Onde colocar
 | Arquivo | Aba |
 |---|---|
 | 01_GERAL_PROMPT.md | **PROMPT** (deixe só este na aba Prompt) |
@@ -15,8 +15,7 @@ Produto único nacional. Fluxo valor→preço, 15 dias sem cobrança, sem legado
 
 ## Passo a passo
 1. PROMPT: apague o conteúdo atual e cole o 01_GERAL_PROMPT.md.
-2. DOCS: suba os 6 docs e aguarde "Sincronizado".
-3. Apague qualquer doc antigo que cite Start/Plus, 11 cidades ou DDD 19.
+2. DOCS: substitua os docs pelos desta pasta e aguarde "Sincronizado".
+3. Apague qualquer doc antigo que cite Solo/Smart/Start/Plus/11 cidades.
 
-> Nome: **BSTEN PRO BLINDADO** (técnico: BSTEN PRO 4G+2G BLINDADO).
-> NÃO afirmar "resistente à água" sem certificação.
+> Mudaram nesta v2: 01_GERAL, 02_COMERCIAL e 05_ATIVACAO (os demais seguem iguais).
