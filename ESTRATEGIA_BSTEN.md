@@ -9,7 +9,8 @@
 A BSTEN **não vende rastreamento** — vende **controle, proteção e autonomia**.
 
 - Controle do veículo na palma da mão · Bloqueio remoto · Monitoramento em tempo real · Autonomia · Proteção sem burocracia
-- **Mensagem principal:** *"Saiba onde seu veículo está e tenha o poder de agir quando precisar."*
+- **Headline principal (escolhida):** *"Mais do que rastrear. Tenha controle."*
+- **Alternativas p/ teste A/B:** *"Localize. Monitore. Bloqueie. Tudo pelo seu celular."* · *"Saiba onde seu veículo está e tenha o poder de agir imediatamente."*
 
 ---
 
@@ -17,6 +18,15 @@ A BSTEN **não vende rastreamento** — vende **controle, proteção e autonomia
 
 - **Nome comercial (priorizar):** **BSTEN PRO BLINDADO**
 - **Nome interno do plano:** BSTEN Solo (não destacar na comunicação)
+
+**BSTEN PRO BLINDADO como HERÓI (não lista técnica):**
+> *BSTEN PRO BLINDADO* — equipamento desenvolvido para permanecer **oculto no veículo**.
+> ✔ Tecnologia 4G · ✔ Chip multioperadora · ✔ Estrutura resistente à água · ✔ Módulo de bloqueio remoto · ✔ Controle pelo app BSTEN PRO
+> *(É um produto/sistema — não "um item de instalação".)*
+
+**🎁 "COMPRE SEM PRESSÃO" (o maior diferencial — usar como seção própria):**
+> Instale o equipamento. Use a plataforma. Conheça todas as funções.
+> A **primeira cobrança da plataforma acontece somente após os primeiros 15 dias de utilização.**
 
 **KIT BSTEN PRO BLINDADO (o que o cliente recebe):**
 - Rastreador 4G blindado
@@ -39,26 +49,35 @@ A BSTEN **não vende rastreamento** — vende **controle, proteção e autonomia
 
 ---
 
-## 🛒 Novo fluxo comercial (valor → preço)
+## 🛒 Novo fluxo comercial (valor → preço) — 7 etapas
 
-1. **Interesse** → "Olá! 😊 O *BSTEN PRO BLINDADO* permite acompanhar e bloquear seu veículo pelo celular. É para carro, moto ou caminhão?"
-2. **Necessidade** → "O principal objetivo é segurança contra roubo ou acompanhamento da localização?"
-3. **Solução** → (segurança) "Além do rastreamento em tempo real, você bloqueia o veículo pelo app." / (monitoramento) "Você acompanha localização, histórico de rotas e alertas no celular."
-4. **Kit** → apresentar o KIT BSTEN PRO BLINDADO
-5. **Preço** → R$ 139,97 equipamento + R$ 35,97/mês plataforma
-6. **Transferência** → "Deseja que eu encaminhe para finalizar seu pedido?"
+Sequência: **Interesse → Dor → Demonstração → Kit → Teste sem risco → Preço → Transferência**
 
-> ⚠️ **CONFLITO A RESOLVER NO BOT:** o GERAL atual manda **revelar preço logo de cara** ("transparência no preço desde o início"). O novo fluxo quer **preço só na ETAPA 5**, depois do valor. **Os docs do bot precisam ser reescritos** pra seguir valor→necessidade→solução→kit→preço, senão o bot contradiz a nova estratégia.
+1. **Interesse** → "Olá! 😊 O *BSTEN PRO BLINDADO* deixa você acompanhar e *bloquear* seu veículo pelo celular. É para carro, moto ou caminhão?"
+2. **Dor/necessidade** → "Seu foco é mais segurança contra roubo ou acompanhar a localização no dia a dia?"
+3. **Demonstração** (NOVO, antes do kit) → espelha a dor; descreve a experiência no app e oferece mostrar (tempo real, bloqueio na hora, âncora, histórico, alertas).
+4. **Kit/herói** → apresenta o *BSTEN PRO BLINDADO* (oculto, 4G, multioperadora, resistente à água, bloqueio incluso, app).
+5. **Teste sem risco** (NOVO, antes do preço) → "Você instala, usa e conhece tudo; a cobrança da plataforma começa só *após 15 dias*."
+6. **Preço** → *R$ 139,97* equipamento + *R$ 35,97/mês* plataforma, sem fidelidade.
+7. **Transferência** → "Deseja que eu encaminhe para finalizar seu pedido?"
+
+> ⚠️ **CONFLITO A RESOLVER NO BOT:** o GERAL atual manda **revelar preço logo de cara**. O novo fluxo quer **preço só na ETAPA 6**, depois do valor + demonstração + teste sem risco. Reescrever os docs.
+
+### 🆕 Regra a adicionar no GERAL
+> **Nunca apresentar o BSTEN PRO BLINDADO como rastreador comum.** Posicionar sempre como **sistema de proteção e controle** (equipamento + app + módulo de bloqueio remoto). **Antes do preço, construir valor** pela demonstração do produto, do app e do período de 15 dias sem cobrança. Se o cliente insistir no preço, não enrolar: dar uma frase de valor + o preço (transparência > evasão).
 
 ---
 
-## 🌐 Landing page (nova estrutura)
+## 🌐 Landing page (hierarquia v2.1 — 8 seções)
 
-1. **Herói:** título *"Controle seu veículo na palma da mão."* · sub *"Rastreamento em tempo real e bloqueio remoto pelo app BSTEN PRO."* · botão **"Quero proteger meu veículo"**
-2. **Vídeo principal** (equipamento + app + bloqueio)
-3. **O que você recebe:** KIT (rastreador blindado, módulo de bloqueio, chip multioperadora, app)
-4. **Benefícios:** localização tempo real · bloqueio pelo celular · alertas inteligentes · histórico de rotas · função âncora · Street View
-5. **Condições:** R$ 139,97 equip. · R$ 35,97/mês · frete grátis · sem fidelidade · 15 dias sem cobrança
+1. **Headline forte:** *"Mais do que rastrear. Tenha controle."* · botão **"Quero proteger meu veículo"**
+2. **Vídeo do produto** (equipamento + app + bloqueio)
+3. **Benefício principal:** *"Localize e bloqueie pelo celular."*
+4. **BSTEN PRO BLINDADO** (herói: oculto, 4G, multioperadora, resistente à água, bloqueio incluso)
+5. **Aplicativo BSTEN PRO** (tempo real, âncora, histórico, alertas, Street View)
+6. **Teste sem risco (15 dias)** — seção própria "Compre sem pressão" (maior diferencial)
+7. **Condições comerciais:** R$ 139,97 equip. · R$ 35,97/mês · frete grátis · sem fidelidade
+8. **WhatsApp** (CTA final)
 
 ---
 
