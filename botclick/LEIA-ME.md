@@ -12,10 +12,11 @@ Correções aplicadas: localização/abrangência nacional, nunca CPF p/ pergunt
 | 04_FINANCEIRO.md | DOCS |
 | 05_ATIVACAO.md | DOCS |
 | 06_COMPORTAMENTO.md | DOCS |
+| 07_EMPRESA.md | DOCS |
 
 ## Passo a passo
 1. PROMPT: apague o conteúdo atual e cole o 01_GERAL_PROMPT.md.
 2. DOCS: substitua os docs pelos desta pasta e aguarde "Sincronizado".
 3. Apague qualquer doc antigo que cite Solo/Smart/Start/Plus/11 cidades.
 
-> Mudaram nesta v2: 01_GERAL, 02_COMERCIAL e 05_ATIVACAO (os demais seguem iguais).
+> Novidade nesta v5: bloco institucional (07_EMPRESA.md — sede Sumaré-SP, CNPJ, desde 2013) p/ objeção de confiança, e atualização do 01_GERAL (localização/sede). Suba 01_GERAL e 07_EMPRESA.
