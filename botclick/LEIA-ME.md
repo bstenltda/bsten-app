@@ -20,3 +20,5 @@ Correções aplicadas: localização/abrangência nacional, nunca CPF p/ pergunt
 3. Apague qualquer doc antigo que cite Solo/Smart/Start/Plus/11 cidades.
 
 > Novidade nesta v5: bloco institucional (07_EMPRESA.md — sede Sumaré-SP, CNPJ, desde 2013) p/ objeção de confiança, e atualização do 01_GERAL (localização/sede). Suba 01_GERAL e 07_EMPRESA.
+
+> Novidade v6 (formatação de mensagens): 01_GERAL §15 reescrita — fracionar em 2-3 mensagens curtas, usar *negrito* (asterisco simples) e _itálico_ nativos do WhatsApp pra dar vida, proibido **negrito duplo**/listas. 02_COMERCIAL: instalação numa resposta só (sem agendar, sem contradição) + preço/fechamento fracionados. Suba 01_GERAL e 02_COMERCIAL.
