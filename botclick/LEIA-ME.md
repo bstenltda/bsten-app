@@ -22,3 +22,5 @@ Correções aplicadas: localização/abrangência nacional, nunca CPF p/ pergunt
 > Novidade nesta v5: bloco institucional (07_EMPRESA.md — sede Sumaré-SP, CNPJ, desde 2013) p/ objeção de confiança, e atualização do 01_GERAL (localização/sede). Suba 01_GERAL e 07_EMPRESA.
 
 > Novidade v6 (formatação de mensagens): 01_GERAL §15 reescrita — fracionar em 2-3 mensagens curtas, usar *negrito* (asterisco simples) e _itálico_ nativos do WhatsApp pra dar vida, proibido **negrito duplo**/listas. 02_COMERCIAL: instalação numa resposta só (sem agendar, sem contradição) + preço/fechamento fracionados. Suba 01_GERAL e 02_COMERCIAL.
+
+> Novidade v7 (2ª auditoria): corrige bug do prefixo "BSTEN:" no texto e saudação duplicada (01_GERAL §15). Instalação reescrita: lidera com "aparelho chega PRONTO e testado, app configurado, equipe orienta o profissional" — sem afirmar que a BSTEN instala em todo o Brasil (01_GERAL §4, 02_COMERCIAL, produto). Nova objeção "e se não funcionar?" (resposta firme, sem soar frágil, sem inventar garantia). Preço com 1 pergunta de qualificação antes. Suba 01_GERAL, 02_COMERCIAL e produto_BSTEN_PRO_BLINDADO.

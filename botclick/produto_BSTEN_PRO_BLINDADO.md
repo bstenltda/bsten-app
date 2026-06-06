@@ -25,7 +25,10 @@ Rastreador 4G+2G blindado · módulo de bloqueio remoto incluso · chip multiope
 - Plataforma/app: *R$ 35,97/mês*, sem fidelidade
 - Primeiros *15 dias* da plataforma: SEM cobrança
 
+## Pronto pra usar (diferencial forte)
+O aparelho sai da nossa base *pronto pra instalar*: já vem testado e com o app configurado (usuário e senha do cliente). Na instalação, a equipe BSTEN orienta e dá suporte ao profissional.
+
 ## Observações
-- Abrangência nacional.
-- Instalação por conta do cliente, em auto elétrica de confiança (equipe orienta).
+- Abrangência de ENVIO: nacional (frete grátis). NÃO afirmar que a BSTEN instala em todo o Brasil.
+- Instalação por um profissional/auto elétrica de confiança; a equipe BSTEN orienta e apoia o profissional.
 - NÃO afirmar resistência à água sem certificação confirmada.
