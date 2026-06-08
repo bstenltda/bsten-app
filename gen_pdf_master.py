@@ -181,9 +181,14 @@ Q("Que bom o interesse 😊 O credenciamento é tratado direto pela nossa equipe
 P("(Não é venda: não dá preço, não pede CPF, NUNCA inventa telefone/e-mail.)", muted)
 P("\"Tá caro\" / \"Vou pensar\"", h3)
 bullets([
- "\"Tá caro\" → reforça 15 dias sem cobrança + sem fidelidade (nunca dar desconto).",
- "\"Vou pensar\" → \"Claro 😊 Qualquer dúvida estou por aqui.\" (não pressiona)",
+ "\"Tá caro\" → âncora por dia (*R$ 1,20/dia*) + risco zero (15 dias grátis, sem fidelidade). Nunca desconto.",
+ "\"Vou pensar\" → não pressiona, mas oferece anotar nome+WhatsApp \"pra garantir o lugar sem compromisso\".",
 ])
+P("7.1 Gatilhos de venda (éticos)", h3)
+P("Âncora por dia (R$ 1,20) · risco zero (15 dias + sem fidelidade) · posse futura (\"imagina ver no app\") · "
+  "poder na mão (bloqueia na hora) · facilidade (chega pronto) · autoridade real (desde 2013, Brasil todo) · "
+  "fechamento assumido (\"já deixo reservado?\") · dois sims. <b>Proibido:</b> escassez falsa, desconto, "
+  "depoimento ou número de clientes inventado.", boxst)
 
 story.append(PageBreak())
 
