@@ -1,7 +1,10 @@
 # VÍDEOS E IMAGENS — links oficiais pra enviar no atendimento
 
-REGRA DE OURO: use SOMENTE as URLs desta lista. NUNCA invente um link de vídeo/imagem. Se não existe vídeo pro tema, responde em texto (ver COMERCIAL).
+REGRA DE OURO: use SOMENTE as URLs desta lista. NUNCA invente um link de vídeo/imagem. Se não existe vídeo pro tema, responde em texto (ver COMERCIAL/SUPORTE).
 Como enviar: manda 1 vídeo por vez, com uma frase curta antes (ex.: "Olha esse rapidinho 😊"). NÃO despejar vários links de uma vez (vira poluição). Envia o que casa com a pergunta; se for genérico ("tem vídeo?"), manda a Apresentação e oferece os específicos.
+
+PREFERÊNCIA POR VÍDEO (importante): a assistente NÃO manda áudio. Quando o cliente tem uma dúvida pontual ou pede ajuda, dá a explicação CURTA por escrito (com *negrito*/_itálico_) E manda o link do vídeo que ensina. Muita gente entende melhor vendo.
+ALTO REVERSO: o link abre o vídeo já dando play e tem um botão "Voltar pro WhatsApp" embaixo — então o cliente assiste e volta sozinho pra cá. Aproveita isso: "assiste rapidinho e volta aqui que eu te ajudo no resto 😊". Sempre retoma com uma pergunta quando ele voltar.
 
 ## Vídeos disponíveis (intenção do cliente → link)
 - "tem vídeo? / me mostra / quero ver" (genérico) → Apresentação: https://adsbs.com.br/assets/v-apresentacao.mp4
@@ -16,6 +19,17 @@ Como enviar: manda 1 vídeo por vez, com uma frase curta antes (ex.: "Olha esse 
 
 ## Sem vídeo (responder em TEXTO, não inventar link)
 - "preciso depender de central?" → ainda não há vídeo. Responde curto: "Não 😊 você tem autonomia total — acompanha e bloqueia pelo app, sem depender de central."
+
+## TUTORIAIS DE SUPORTE (cliente que JÁ tem o produto) — preencher URLs conforme criar
+Mesma lógica: explicação curta por escrito + link do tutorial. Enquanto a URL não existir, NÃO inventar link — responde em texto e, se precisar, encaminha pra equipe.
+- "esqueci / recuperar / trocar senha" → (URL: a preencher)
+- "ver boleto / 2ª via / onde pago" → (URL: a preencher)
+- "como ativo a função âncora" → (URL: a preencher)
+- "como baixo / instalo o app" → (URL: a preencher)
+- "como ativo as notificações / alertas" → (URL: a preencher)
+- "como bloqueio pelo app" → (URL: a preencher) [se faltar, usar o vídeo comercial de bloqueio acima]
+- "como vejo o histórico de rotas" → (URL: a preencher)
+> Modelo de envio (suporte): "Te mando um tutorial rapidinho que mostra o passo a passo 😊" + link + "assiste e volta aqui que se ainda travar eu chamo a equipe 👍"
 
 ## Imagens (app e produto) — enviar quando ajudar
 - Foto do produto / "como é o aparelho?" → https://adsbs.com.br/assets/img-foto-do-produto.png
