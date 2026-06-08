@@ -13,6 +13,7 @@ Correções aplicadas: localização/abrangência nacional, nunca CPF p/ pergunt
 | 05_ATIVACAO.md | DOCS |
 | 06_COMPORTAMENTO.md | DOCS |
 | 07_EMPRESA.md | DOCS |
+| 08_VIDEOS.md | DOCS |
 
 ## Passo a passo
 1. PROMPT: apague o conteúdo atual e cole o 01_GERAL_PROMPT.md.
@@ -26,6 +27,8 @@ Correções aplicadas: localização/abrangência nacional, nunca CPF p/ pergunt
 > Novidade v7 (2ª auditoria): corrige bug do prefixo "BSTEN:" no texto e saudação duplicada (01_GERAL §15). Instalação reescrita: lidera com "aparelho chega PRONTO e testado, app configurado, equipe orienta o profissional" — sem afirmar que a BSTEN instala em todo o Brasil (01_GERAL §4, 02_COMERCIAL, produto). Nova objeção "e se não funcionar?" (resposta firme, sem soar frágil, sem inventar garantia). Preço com 1 pergunta de qualificação antes. Suba 01_GERAL, 02_COMERCIAL e produto_BSTEN_PRO_BLINDADO.
 
 > Novidade v8 (coleta de dados): CPF NUNCA a frio — gera rejeição. Mesmo no "quero contratar", qualifica primeiro (veículo + cidade), reserva só com *nome + WhatsApp*, e pede *e-mail + CPF* só no passo final (emitir nota), já transferindo pra equipe. 01_GERAL §7/§12/§14 e 02_COMERCIAL ETAPA 7. Suba 01_GERAL e 02_COMERCIAL.
+
+> Novidade v12 (vídeos): novo doc 08_VIDEOS com os links REAIS dos vídeos (adsbs.com.br/assets) mapeados por pergunta — o bot envia o vídeo certo (bloqueio, rastreamento, "serve pra moto", quanto custa, etc.), 1 por vez, e retoma com pergunta. Regra: nunca inventar URL, usar só as do doc. 01_GERAL §16 e 02_COMERCIAL (Vídeo) referenciam. Suba 01_GERAL, 02_COMERCIAL e o novo 08_VIDEOS.
 
 > Novidade v11 (confiança/contato): contato oficial gravado — e-mail gpsbspaga@gmail.com (único válido; bot nunca inventa outro), Instagram @bsten_ofc. Nova "pilha de confiança" pra objeção "não acho confiável" (07_EMPRESA): além do CNPJ, usar Pix em nome da BSTEN LTDA, CNPJ verificável na Receita, Instagram, 15 dias risco zero, vídeos. 01_GERAL §3/§4d e 02_COMERCIAL (parceiro) referenciam o e-mail oficial. Suba 01_GERAL, 02_COMERCIAL e 07_EMPRESA.
 
