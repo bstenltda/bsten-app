@@ -63,7 +63,18 @@ export default function App() {
   if (mode === "welcome") return (
     <div style={ui.fullPage}>
       <h1 style={{fontSize: 50, margin: 0}}>BSTEN</h1>
-      <p style={{marginBottom: 40}}>Termo de Responsabilidade Digital</p>
+      <p style={{marginBottom: 25}}>Termo de Responsabilidade Digital</p>
+      <div style={ui.videoWrap}>
+        <iframe
+          title="Vídeo de instalação BSTEN"
+          src="https://www.instagram.com/reel/DZV0y64p_YL/embed/"
+          style={ui.video}
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          allowFullScreen
+          scrolling="no"
+          frameBorder="0"
+        />
+      </div>
       <button style={ui.btnPrimary} onClick={() => setMode("form")}>Iniciar Assinatura</button>
     </div>
   );
@@ -118,5 +129,7 @@ const ui = {
   input: { width: "100%", padding: 14, fontSize: 16, borderRadius: 10, border: "1px solid #ccc", boxSizing: "border-box" },
   canvas: { background: "#fff", border: "2px dashed #1a2e6e", borderRadius: 10, width: "100%" },
   progress: { height: 6, background: "#eee", borderRadius: 3, width: "100%", maxWidth: 300, marginBottom: 30, overflow: "hidden" },
-  bar: { height: "100%", background: "#1a2e6e", transition: "0.3s" }
+  bar: { height: "100%", background: "#1a2e6e", transition: "0.3s" },
+  videoWrap: { width: "100%", maxWidth: 300, aspectRatio: "9 / 16", marginBottom: 30, borderRadius: 12, overflow: "hidden", background: "#000", boxShadow: "0 6px 20px rgba(0,0,0,0.25)" },
+  video: { width: "100%", height: "100%", border: "none", display: "block" }
 };
