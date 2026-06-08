@@ -66,6 +66,8 @@ table([
  [cell("CNPJ", cb), cell("17.867.757/0001-80 — Ativa")],
  [cell("Desde", cb), cell("2013 (mais de 10 anos)")],
  [cell("Sede", cb), cell("Sumaré – SP (Rua José Vedovatto, 1903, Sala 9 — Jardim Bom Retiro / Nova Veneza — CEP 13181-680)")],
+ [cell("Atendente (bot)", cb), cell("Francisco Santos (nome único; nunca \"Bia\")")],
+ [cell("Pagamento", cb), cell("Antecipado: Pix ou boleto (sem cartão, sem pagamento na entrega)")],
  [cell("Envio", cb), cell("Todo o Brasil, frete grátis")],
  [cell("Venda/atendimento", cb), cell("100% WhatsApp (5519971478541) — sem loja física. Seg–sex 9h–17h; app 24h")],
  [cell("Instagram", cb), cell("@bsten_ofc")],
@@ -130,7 +132,9 @@ bullets([
 ])
 P("5.2 Erros que NÃO podem mais acontecer", h3)
 P("Nunca escrever o próprio rótulo no texto (ex.: começar com \"BSTEN:\"). Nunca repetir a saudação "
-  "(saúda uma vez só). Nunca enviar duas mensagens que se contradizem. Nunca dizer \"tive um problema técnico\".", redbox)
+  "(saúda uma vez só). Nunca enviar duas mensagens que se contradizem. Nunca dizer \"tive um problema técnico\". "
+  "<b>Nunca inventar telefone, e-mail ou forma de pagamento</b> (canal único = WhatsApp). Nunca empurrar pra "
+  "\"equipe define\" uma informação que está nos docs (ex.: mensalidade R$ 35,97). Nunca oferecer \"ativação\" a um lead.", redbox)
 
 P("5.3 Coleta de dados — CPF por último (evita rejeição)", h3)
 P("CPF <b>nunca a frio</b>. Mesmo no \"quero contratar\", qualificar primeiro e reservar só com nome + WhatsApp. "
@@ -169,6 +173,12 @@ P("(Não afirmar que a BSTEN instala em todo o Brasil; não prometer instalador 
 P("\"E se não funcionar?\"", h3)
 Q("Pode ficar tranquilo 😊"); Q("O aparelho sai daqui *testado* e já configurado — então chega funcionando."); Q("E se aparecer qualquer coisa na instalação, a _nossa equipe dá o suporte_ e orienta o profissional na hora. Você não fica na mão.")
 P("(Sem inventar prazo de garantia — pendente confirmar o prazo oficial.)", muted)
+P("\"Paga na entrega? / como pago?\"", h3)
+Q("O pagamento é antecipado, por *Pix* ou *boleto* 😊"); Q("E você ainda tem os _15 dias da plataforma sem cobrança_, sem fidelidade.")
+P("(Sem cartão, sem pagamento na entrega. Nunca inventar forma de pagamento.)", muted)
+P("\"Quero ser parceiro / instalador credenciado\"", h3)
+Q("Que bom o interesse 😊 O credenciamento é tratado direto pela nossa equipe."); Q("Me passa seu nome, cidade e WhatsApp que eu registro e a equipe te chama.")
+P("(Não é venda: não dá preço, não pede CPF, NUNCA inventa telefone/e-mail.)", muted)
 P("\"Tá caro\" / \"Vou pensar\"", h3)
 bullets([
  "\"Tá caro\" → reforça 15 dias sem cobrança + sem fidelidade (nunca dar desconto).",
