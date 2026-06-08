@@ -71,6 +71,7 @@ table([
  [cell("Envio", cb), cell("Todo o Brasil, frete grátis")],
  [cell("Venda/atendimento", cb), cell("100% WhatsApp (5519971478541) — sem loja física. Seg–sex 9h–17h; app 24h")],
  [cell("Instagram", cb), cell("@bsten_ofc")],
+ [cell("E-mail oficial", cb), cell("gpsbspaga@gmail.com (único válido — bot nunca inventa outro)")],
 ], [3.3*cm, 12.7*cm], header=False)
 
 # ===== 2. PRODUTO =====
@@ -184,6 +185,11 @@ bullets([
  "\"Tá caro\" → âncora por dia (*R$ 1,20/dia*) + risco zero (15 dias grátis, sem fidelidade). Nunca desconto.",
  "\"Vou pensar\" → não pressiona, mas oferece anotar nome+WhatsApp \"pra garantir o lugar sem compromisso\".",
 ])
+P("\"Não acho confiável\" (pilha de confiança, além do CNPJ)", h3)
+P("Empilhar provas que o cliente confere sozinho: CNPJ 17.867.757/0001-80 (Receita) · Instagram @bsten_ofc · "
+  "endereço em Sumaré-SP · <b>Pix em nome da BSTEN LTDA</b> (confere o CNPJ do recebedor antes de pagar) · "
+  "15 dias sem cobrança + sem fidelidade (\"o risco é nosso\") · vídeos do app funcionando. CNPJ é o piso; "
+  "o que mais converte o cético é o que ele pode verificar e o Pix na razão social.", boxst)
 P("7.1 Gatilhos de venda (éticos)", h3)
 P("Âncora por dia (R$ 1,20) · risco zero (15 dias + sem fidelidade) · posse futura (\"imagina ver no app\") · "
   "poder na mão (bloqueia na hora) · facilidade (chega pronto) · autoridade real (desde 2013, Brasil todo) · "
