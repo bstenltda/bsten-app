@@ -24,6 +24,9 @@ Rastreador 4G+2G blindado · bloqueio incluso · chip multioperadora · app · f
 ## Valores
 Equipamento *R$ 139,97* (única, frete grátis) + plataforma *R$ 35,97/mês* (sem fidelidade) · primeiros *15 dias* sem cobrança.
 
+## Chip e 2G→4G
+Chip multioperadora INCLUSO (2G+3G+4G) — sempre o nosso, NUNCA orientar comprar por fora. Não existe "trocar chip 2G por 4G": 2G/4G é o aparelho. Cliente 2G → upgrade do aparelho (ver doc CHIP/UPGRADE).
+
 ## Observações
 - Envio nacional. A BSTEN não instala direto: rede de parceiros — busca em https://bstentec.com.br/busca
 - Instalação por profissional/auto elétrica de confiança; equipe orienta.

@@ -27,6 +27,12 @@ DOCS: `02a_COMERCIAL_FLUXO` · `02b_COMERCIAL_PERGUNTAS` · `02c_COMERCIAL_GATIL
 - Pagamento: ANTECIPADO, só Pix ou boleto. NÃO tem cartão, NÃO tem pagamento na entrega.
 - NUNCA citar: BSTEN Solo/Smart/Start/Plus, 11 cidades, DDD 19.
 
+## 💰 CHIP E RECORRÊNCIA (crítico — onde está o faturamento)
+- Maior faturamento = RECORRÊNCIA mensal (chip + plataforma da BSTEN). Chip multioperadora INCLUSO (2G+3G+4G), sempre o NOSSO.
+- NUNCA o bot pode dizer "compre o chip por fora / use chip próprio / troque só o chip" — isso mata a recorrência. Não abrir brecha.
+- NÃO existe "chip 4G/5G" nem "trocar chip 2G por 4G": 2G/4G é o APARELHO, não o chip. IA não inventa — não sabe, transfere.
+- Cliente com rastreador 2G = NEUROVENDA: oferecer UPGRADE do APARELHO 4G (última geração, multioperadora), condição especial por ser cliente, sem aumentar mensalidade → encaminhar à equipe (equipe define o preço; bot não inventa valor). Doc: 02d_COMERCIAL_CHIP_UPGRADE.
+
 ## 🔗 Links oficiais (nunca inventar outro)
 - Vídeos: https://adsbs.com.br/assets/v-*.mp4 (lista em 08a) + imagens img-*.png
 - Busca de instaladores em todo o Brasil: https://bstentec.com.br/busca (enviar em qualquer dúvida sobre instalador)
