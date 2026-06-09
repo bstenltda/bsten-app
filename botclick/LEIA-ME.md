@@ -1,43 +1,33 @@
-# 📦 BSTEN PRO BLINDADO — Arquivos do Bot (Botclick) — v2 (correções de atendimento)
+# BSTEN PRO BLINDADO — Pacote do Bot (Botclick) — REESTRUTURADO p/ limites de caracteres
 
-Correções aplicadas: localização/abrangência nacional, nunca CPF p/ pergunta simples, lead ≠ ativação (IMEI), instalação padronizada, vídeo, alarme, "perguntas rápidas" (responde antes de vender), remoção total de BSTEN Solo/Smart/Start/Plus.
+Limites do Botclick: PROMPT até 10.000 · cada DOC até 2.000. Por isso o COMERCIAL virou 3 docs e os VÍDEOS viraram 2. Todas as regras foram mantidas — só reorganizadas.
 
 ## Onde colocar
 | Arquivo | Aba |
 |---|---|
-| 01_GERAL_PROMPT.md | **PROMPT** (deixe só este na aba Prompt) |
-| produto_BSTEN_PRO_BLINDADO.md | DOCS |
-| 02_COMERCIAL.md | DOCS |
+| 01_GERAL_PROMPT.md | **PROMPT** (só este) |
+| 02a_COMERCIAL_FLUXO.md | DOCS |
+| 02b_COMERCIAL_PERGUNTAS.md | DOCS |
+| 02c_COMERCIAL_GATILHOS.md | DOCS |
 | 03_SUPORTE.md | DOCS |
 | 04_FINANCEIRO.md | DOCS |
 | 05_ATIVACAO.md | DOCS |
 | 06_COMPORTAMENTO.md | DOCS |
 | 07_EMPRESA.md | DOCS |
-| 08_VIDEOS.md | DOCS |
+| 08a_VIDEOS_VENDA.md | DOCS |
+| 08b_VIDEOS_SUPORTE_LINKS.md | DOCS |
+| produto_BSTEN_PRO_BLINDADO.md | DOCS |
 
-## Passo a passo
-1. PROMPT: apague o conteúdo atual e cole o 01_GERAL_PROMPT.md.
-2. DOCS: substitua os docs pelos desta pasta e aguarde "Sincronizado".
-3. Apague qualquer doc antigo que cite Solo/Smart/Start/Plus/11 cidades.
+(O LEIA-ME é só seu guia — não precisa subir.)
 
-> Novidade nesta v5: bloco institucional (07_EMPRESA.md — sede Sumaré-SP, CNPJ, desde 2013) p/ objeção de confiança, e atualização do 01_GERAL (localização/sede). Suba 01_GERAL e 07_EMPRESA.
+## Passos
+1. PROMPT: apaga tudo e cola o 01_GERAL_PROMPT.md.
+2. DOCS: apaga todos os docs antigos (principalmente os que citam "BSTEN Solo" ou 11 cidades) e sobe os 11 acima.
+3. Aguarda "Sincronizado" e testa.
 
-> Novidade v6 (formatação de mensagens): 01_GERAL §15 reescrita — fracionar em 2-3 mensagens curtas, usar *negrito* (asterisco simples) e _itálico_ nativos do WhatsApp pra dar vida, proibido **negrito duplo**/listas. 02_COMERCIAL: instalação numa resposta só (sem agendar, sem contradição) + preço/fechamento fracionados. Suba 01_GERAL e 02_COMERCIAL.
-
-> Novidade v7 (2ª auditoria): corrige bug do prefixo "BSTEN:" no texto e saudação duplicada (01_GERAL §15). Instalação reescrita: lidera com "aparelho chega PRONTO e testado, app configurado, equipe orienta o profissional" — sem afirmar que a BSTEN instala em todo o Brasil (01_GERAL §4, 02_COMERCIAL, produto). Nova objeção "e se não funcionar?" (resposta firme, sem soar frágil, sem inventar garantia). Preço com 1 pergunta de qualificação antes. Suba 01_GERAL, 02_COMERCIAL e produto_BSTEN_PRO_BLINDADO.
-
-> Novidade v8 (coleta de dados): CPF NUNCA a frio — gera rejeição. Mesmo no "quero contratar", qualifica primeiro (veículo + cidade), reserva só com *nome + WhatsApp*, e pede *e-mail + CPF* só no passo final (emitir nota), já transferindo pra equipe. 01_GERAL §7/§12/§14 e 02_COMERCIAL ETAPA 7. Suba 01_GERAL e 02_COMERCIAL.
-
-> Novidade v15 (conectar antes de agir): corrige 3 erros vistos em conversa real — (1) bot despejava preço/app no "bom dia" → agora só cumprimento sem pergunta = saudação + "como posso ajudar?", nunca despeja preço/specs sem pedir; (2) problema técnico tratado como roubo → §10 separa CRÍTICA (só roubo/furto) de SUPORTE (carro não liga, app, âncora, senha), novo caso "carro não liga" no 03_SUPORTE; (3) "já tenho rastreador"/cliente → §11 conecta e direciona (suporte/financeiro/comercial) antes de transferir, não vende nem duplica. Suba 01_GERAL e 03_SUPORTE.
-
-> Novidade v14 (busca de instaladores): em qualquer dúvida sobre instalador, o bot envia o link de busca de instaladores parceiros em todo o Brasil → https://bstentec.com.br/busca. 02_COMERCIAL (instalação), 01_GERAL §4, produto e 08_VIDEOS (links úteis). Nunca inventar outro link. Suba 01_GERAL, 02_COMERCIAL, 08_VIDEOS e produto.
-
-> Novidade v13 (vídeos no suporte + alto reverso): a assistente NÃO manda áudio — usa vídeo. Em dúvida pontual (venda OU suporte): explicação curta por escrito + link do tutorial. Aproveitar o "alto reverso" (vídeo abre dando play, botão "Voltar pro WhatsApp" traz o cliente de volta): "assiste e volta aqui 😊". Novo bloco TUTORIAIS DE SUPORTE no 08_VIDEOS (senha, boleto, âncora, app, alertas, bloqueio, histórico — URLs a preencher conforme criar). 03_SUPORTE e 04_FINANCEIRO integrados. Suba 08_VIDEOS, 03_SUPORTE, 04_FINANCEIRO.
-
-> Novidade v12 (vídeos): novo doc 08_VIDEOS com os links REAIS dos vídeos (adsbs.com.br/assets) mapeados por pergunta — o bot envia o vídeo certo (bloqueio, rastreamento, "serve pra moto", quanto custa, etc.), 1 por vez, e retoma com pergunta. Regra: nunca inventar URL, usar só as do doc. 01_GERAL §16 e 02_COMERCIAL (Vídeo) referenciam. Suba 01_GERAL, 02_COMERCIAL e o novo 08_VIDEOS.
-
-> Novidade v11 (confiança/contato): contato oficial gravado — e-mail gpsbspaga@gmail.com (único válido; bot nunca inventa outro), Instagram @bsten_ofc. Nova "pilha de confiança" pra objeção "não acho confiável" (07_EMPRESA): além do CNPJ, usar Pix em nome da BSTEN LTDA, CNPJ verificável na Receita, Instagram, 15 dias risco zero, vídeos. 01_GERAL §3/§4d e 02_COMERCIAL (parceiro) referenciam o e-mail oficial. Suba 01_GERAL, 02_COMERCIAL e 07_EMPRESA.
-
-> Novidade v10 (gatilhos de venda): seção GATILHOS DE VENDA no 02_COMERCIAL (âncora por dia R$ 1,20, risco zero, posse futura, poder na mão, facilidade, autoridade real, fechamento assumido, dois sims). Etapas 4/5/6/7 turbinadas e objeções "tá caro"/"vou pensar"/"não confio" com gatilho. Tudo ético — proibido escassez falsa, desconto e depoimento/nº de clientes inventado. 01_GERAL §6 referencia os gatilhos. Suba 01_GERAL e 02_COMERCIAL.
-
-> Novidade v9 (auditoria 07/06): assistente passa a se chamar *Francisco Santos* (nunca "Bia") — 01_GERAL §1. Anti-alucinação de contato: NUNCA inventar telefone/e-mail/forma de pagamento (§3). Pagamento: só *Pix* ou *boleto* antecipado, sem cartão, sem pagamento na entrega (§4c, COMERCIAL). Fluxo de PARCEIRO/INSTALADOR credenciado: registra nome+cidade+WhatsApp e passa pra equipe, sem inventar contato (§4d, COMERCIAL). Responder info que está nos docs (ex.: mensalidade) — não empurrar pra "equipe define". ATENÇÃO: a maioria desses bugs (CPF a frio, markdown, ativação pra lead) só some quando o 01_GERAL for subido na aba PROMPT — apague também qualquer doc antigo que cite "BSTEN Solo". Suba 01_GERAL e 02_COMERCIAL.
+## Testes rápidos
+- "Bom dia!" → só cumprimenta + "como posso ajudar?" (não despeja preço).
+- "quero contratar" → qualifica (carro/moto?) e reserva com nome+WhatsApp; CPF só no fim.
+- "meu carro não liga, já tenho rastreador" → vira SUPORTE (pergunta do bloqueio), não roubo.
+- "tá caro" → âncora R$ 1,20/dia + 15 dias risco zero.
+- "quem instala?" → manda https://bstentec.com.br/busca

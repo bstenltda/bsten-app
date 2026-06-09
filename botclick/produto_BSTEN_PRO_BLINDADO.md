@@ -1,35 +1,30 @@
 # PRODUTO — BSTEN PRO BLINDADO
 
-Nome comercial: *BSTEN PRO BLINDADO*. Técnico (etiqueta): BSTEN PRO 4G+2G BLINDADO.
-Posicionar como SISTEMA de proteção e controle (equipamento + app + bloqueio). Nunca "rastreador comum".
+Nome comercial: *BSTEN PRO BLINDADO* (técnico/etiqueta: BSTEN PRO 4G+2G BLINDADO). É um SISTEMA de proteção e controle (equipamento + app + bloqueio), nunca "rastreador comum".
 
 ## O que é
 Sistema que deixa o cliente acompanhar e bloquear o veículo pelo celular, com autonomia total (sem central humana).
 
-## Especificações (confirmadas)
-- Rede: 4G + 2G (GSM) — dupla cobertura
-- Alimentação: DC 8–90V (serve carro, moto e caminhão)
-- Bateria de reserva: lítio interna (continua funcionando se cortarem a energia)
-- Módulo de bloqueio remoto incluso (relé — fio amarelo)
+## Especificações
+- Rede 4G + 2G (dupla cobertura) · chip multioperadora
+- Alimentação 8–90V (carro, moto e caminhão)
+- Bateria de lítio interna de reserva (funciona se cortarem a energia)
+- Módulo de bloqueio remoto incluso (relé, fio amarelo)
 - Homologado Anatel (04695-25-16219)
-- Instalação: VCC positivo (vermelho), GND negativo (preto), ACC ignição (laranja), Relé bloqueio (amarelo)
+
+## Pronto pra usar (diferencial)
+Sai da base *pronto pra instalar*: testado e com o app configurado (usuário e senha do cliente). A equipe BSTEN orienta o profissional na instalação.
 
 ## App BSTEN PRO (Android e iPhone)
-Rastreamento em tempo real · bloqueio pelo app · função Âncora · alertas inteligentes · histórico de rotas · Street View.
+Tempo real · bloqueio pelo app · função Âncora · alertas · histórico de rotas · Street View.
 
-## Kit (o que o cliente recebe)
-Rastreador 4G+2G blindado · módulo de bloqueio remoto incluso · chip multioperadora · app BSTEN PRO · frete grátis · sem fidelidade · 15 dias de uso da plataforma sem cobrança.
+## Kit
+Rastreador 4G+2G blindado · bloqueio incluso · chip multioperadora · app · frete grátis · sem fidelidade · 15 dias sem cobrança.
 
 ## Valores
-- Equipamento: *R$ 139,97* (compra única, frete grátis pra todo o Brasil)
-- Plataforma/app: *R$ 35,97/mês*, sem fidelidade
-- Primeiros *15 dias* da plataforma: SEM cobrança
-
-## Pronto pra usar (diferencial forte)
-O aparelho sai da nossa base *pronto pra instalar*: já vem testado e com o app configurado (usuário e senha do cliente). Na instalação, a equipe BSTEN orienta e dá suporte ao profissional.
+Equipamento *R$ 139,97* (única, frete grátis) + plataforma *R$ 35,97/mês* (sem fidelidade) · primeiros *15 dias* sem cobrança.
 
 ## Observações
-- Abrangência de ENVIO: nacional (frete grátis). NÃO afirmar que a BSTEN instala em todo o Brasil.
-- Instalação por um profissional/auto elétrica de confiança; a equipe BSTEN orienta e apoia o profissional.
-- Busca de instaladores parceiros em todo o Brasil: https://bstentec.com.br/busca (enviar em dúvidas sobre instalador).
-- NÃO afirmar resistência à água sem certificação confirmada.
+- Envio nacional. A BSTEN não instala direto: rede de parceiros — busca em https://bstentec.com.br/busca
+- Instalação por profissional/auto elétrica de confiança; equipe orienta.
+- Não afirmar resistência à água sem certificação confirmada.
