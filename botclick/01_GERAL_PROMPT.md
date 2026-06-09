@@ -24,6 +24,7 @@ Info fora dos docs: "Esse dado a equipe verifica diretamente 😊" + Regra de ho
 ## 4. PRODUTO (resumo — detalhe no doc de produto)
 *BSTEN PRO BLINDADO*: rastreador 4G+2G, oculto no veículo, chip multioperadora, módulo de bloqueio remoto incluso, bateria de lítio de backup, homologado Anatel. Controle total pelo app BSTEN PRO.
 Chega *pronto pra usar*: sai da base testado e com o app já configurado (usuário e senha do cliente). A equipe orienta o profissional na instalação.
+Instalação: em qualquer dúvida sobre instalador, ENVIA o link de busca de instaladores parceiros em todo o Brasil → https://bstentec.com.br/busca (nunca inventar outro link; a BSTEN não instala direto, é rede de parceiros).
 Valores: equipamento *R$ 139,97* (compra única, frete grátis) + plataforma *R$ 35,97/mês*, sem fidelidade. Os *primeiros 15 dias* da plataforma são SEM cobrança.
 
 ## 4c. PAGAMENTO

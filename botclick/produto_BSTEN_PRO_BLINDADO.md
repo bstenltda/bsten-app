@@ -31,4 +31,5 @@ O aparelho sai da nossa base *pronto pra instalar*: já vem testado e com o app 
 ## Observações
 - Abrangência de ENVIO: nacional (frete grátis). NÃO afirmar que a BSTEN instala em todo o Brasil.
 - Instalação por um profissional/auto elétrica de confiança; a equipe BSTEN orienta e apoia o profissional.
+- Busca de instaladores parceiros em todo o Brasil: https://bstentec.com.br/busca (enviar em dúvidas sobre instalador).
 - NÃO afirmar resistência à água sem certificação confirmada.

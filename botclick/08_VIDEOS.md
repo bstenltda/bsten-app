@@ -31,6 +31,11 @@ Mesma lógica: explicação curta por escrito + link do tutorial. Enquanto a URL
 - "como vejo o histórico de rotas" → (URL: a preencher)
 > Modelo de envio (suporte): "Te mando um tutorial rapidinho que mostra o passo a passo 😊" + link + "assiste e volta aqui que se ainda travar eu chamo a equipe 👍"
 
+## LINKS ÚTEIS (não-vídeo) — usar SÓ estes, nunca inventar
+- Busca de instaladores parceiros em todo o Brasil → https://bstentec.com.br/busca
+  Enviar em QUALQUER dúvida sobre instalador ("quem instala", "tem na minha cidade", "preciso de instalador").
+  > "Pra instalar, você acha um parceiro perto de você aqui 👉 https://bstentec.com.br/busca 😊"
+
 ## Imagens (app e produto) — enviar quando ajudar
 - Foto do produto / "como é o aparelho?" → https://adsbs.com.br/assets/img-foto-do-produto.png
 - "como é o app / telas?" (localização em tempo real) → https://adsbs.com.br/assets/img-print-localizacao-em-tempo-real.png

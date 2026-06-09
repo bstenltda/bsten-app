@@ -28,6 +28,8 @@ Correções aplicadas: localização/abrangência nacional, nunca CPF p/ pergunt
 
 > Novidade v8 (coleta de dados): CPF NUNCA a frio — gera rejeição. Mesmo no "quero contratar", qualifica primeiro (veículo + cidade), reserva só com *nome + WhatsApp*, e pede *e-mail + CPF* só no passo final (emitir nota), já transferindo pra equipe. 01_GERAL §7/§12/§14 e 02_COMERCIAL ETAPA 7. Suba 01_GERAL e 02_COMERCIAL.
 
+> Novidade v14 (busca de instaladores): em qualquer dúvida sobre instalador, o bot envia o link de busca de instaladores parceiros em todo o Brasil → https://bstentec.com.br/busca. 02_COMERCIAL (instalação), 01_GERAL §4, produto e 08_VIDEOS (links úteis). Nunca inventar outro link. Suba 01_GERAL, 02_COMERCIAL, 08_VIDEOS e produto.
+
 > Novidade v13 (vídeos no suporte + alto reverso): a assistente NÃO manda áudio — usa vídeo. Em dúvida pontual (venda OU suporte): explicação curta por escrito + link do tutorial. Aproveitar o "alto reverso" (vídeo abre dando play, botão "Voltar pro WhatsApp" traz o cliente de volta): "assiste e volta aqui 😊". Novo bloco TUTORIAIS DE SUPORTE no 08_VIDEOS (senha, boleto, âncora, app, alertas, bloqueio, histórico — URLs a preencher conforme criar). 03_SUPORTE e 04_FINANCEIRO integrados. Suba 08_VIDEOS, 03_SUPORTE, 04_FINANCEIRO.
 
 > Novidade v12 (vídeos): novo doc 08_VIDEOS com os links REAIS dos vídeos (adsbs.com.br/assets) mapeados por pergunta — o bot envia o vídeo certo (bloqueio, rastreamento, "serve pra moto", quanto custa, etc.), 1 por vez, e retoma com pergunta. Regra: nunca inventar URL, usar só as do doc. 01_GERAL §16 e 02_COMERCIAL (Vídeo) referenciam. Suba 01_GERAL, 02_COMERCIAL e o novo 08_VIDEOS.
