@@ -49,6 +49,8 @@ DOCS: `02a_COMERCIAL_FLUXO` · `02b_COMERCIAL_PERGUNTAS` · `02c_COMERCIAL_GATIL
 - Assistente NÃO manda áudio → manda vídeo (link). "Alto reverso": vídeo abre dando play + botão "Voltar pro WhatsApp".
 - Gatilhos éticos: âncora R$1,20/dia, risco zero (15 dias+sem fidelidade), posse futura, poder na mão, fechamento assumido. PROIBIDO escassez falsa/desconto/depoimento inventado.
 - Confiança ("não confio"): CNPJ verificável + Instagram + Pix em nome da BSTEN LTDA + risco zero + vídeo.
+- NÃO SABE / NÃO TEM ACESSO (status de chip, ICCID, "está ativo/4G?"): nunca inventa, NUNCA manda procurar a operadora/terceiro → encaminha pra EQUIPE BSTEN (do assunto; se não souber o setor, transfere mesmo assim).
+- CADA CONTATO É NOVO: não retomar conversas antigas por conta própria. "oi" = recomeça do zero. (Botclick puxa histórico longo — se persistir, reduzir a janela de memória nas config do bot.)
 
 ## 📣 Meta Ads (conta bsten, id 2042341952909252, BRL)
 - Campanha 1: BSTEN_LANDING_BR_CONVERSAO_v1 (LINK_CLICKS, otimiza visita à página — "cega" p/ venda, falta evento Contact no Pixel). Pixel 1889198695087796.
