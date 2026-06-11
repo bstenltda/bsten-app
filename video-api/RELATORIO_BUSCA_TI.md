@@ -18,9 +18,17 @@ A prévia que o WhatsApp monta vem das **meta tags OG da página `/v/...`**. Hoj
 - Padronizar: **sempre** devolver a página `/v/<slug>` (nunca o .mp4 direto).
 
 ## 4. Dados técnicos (porta/APN por modelo) não estão na busca
-No teste: `q=porta do coban` → **found:false**, mas o portal TEM a ferramenta "Qual a porta do seu rastreador?" (GT06, TK103, FMB920, Coban...).
-- Decidir: **(a)** indexar essa tabela técnica no mesmo endpoint `buscar-video` (retornando type=texto/dado), ou **(b)** criar um 2º endpoint (ex.: `/api/porta?modelo=coban`) e o bot ganha uma 2ª ferramenta.
-- Hoje o bot só tem a ferramenta de vídeo/tutorial — ele não alcança esse dado.
+Testes do dono: `q=porta do coban` e `tem a porta do rastreador j16 pu gt06` → **found:false / "não encontrei"**. Mas o portal TEM a ferramenta "Qual a porta do seu rastreador?" (GT06, TK103, FMB920, J16, Coban...).
+Causa: o bot só tem a ferramenta de **vídeo/tutorial** — ela não cobre essa tabela técnica. O bot agiu certo (não inventou porta), mas não tem de onde puxar o dado.
+
+**Recomendado — 2º endpoint + 2ª ferramenta no Botclik:**
+- Endpoint novo (a mesma tabela que já alimenta a página do portal):
+  `GET https://painel.adsbs.com.br/api/porta?modelo=gt06`
+  Resposta: `{"found":true,"modelo":"GT06","porta":"5023","servidor":"...","apn":"...","obs":"..."}` · `{"found":false}` quando não tem.
+  Normalizar o modelo (minúsculas, sem espaço; "j16 pu gt06" → casar por "gt06"/"j16").
+- No Botclik: criar a ferramenta **Consultar porta** (HTTP Request) com esse URL e `{{modelo}}`.
+- Instrução pro bot: "Pergunta de instalador sobre porta/APN/servidor de um modelo de rastreador → chama Consultar porta. found=true → manda porta/servidor/APN em texto. found=false → não inventa, oferece transferir."
+- (Alternativa: indexar a tabela no próprio `buscar-video` com type=dado. O endpoint separado é mais limpo.)
 
 ## 5. (Checar) prefixo "BSTEN:" nas respostas
 Toda resposta do bot sai com "BSTEN:" na frente. O prompt proíbe isso — então provavelmente é um **campo de nome do agente** no Botclik sendo prefixado, OU algo no template da ferramenta. Verificar a config do agente/fluxo no Botclik.
