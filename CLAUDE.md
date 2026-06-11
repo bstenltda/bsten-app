@@ -69,7 +69,8 @@ DOCS: `02a_COMERCIAL_FLUXO` · `02b_COMERCIAL_PERGUNTAS` · `02c_COMERCIAL_GATIL
 - Catálogo do TI: `videos-suporte.json` no servidor (TI gerencia; lê a cada busca, sem restart). 6 ativos + 4 placeholders url:null: serve-moto/carro, central, instalação, app.
 - TEMOS vídeo p/ ativar: serve-moto/carro (v-serve-para-carro-moto-ou-caminhao) e instalação (v-quem-faz-a-instalacao). NÃO temos: "central" (não gravado) e "app" (só prints, sem vídeo).
 - Minha versão em video-api/ (videos.json, adsbs.com.br) = protótipo de referência; a LIVE é a do TI.
-- Bot: 01_GERAL §16 manda a IA usar a ferramenta *Buscar vídeo* (HTTP Request). Tool config no Botclik (URL acima + instrução). found=true→manda+pergunta; found=false→texto/equipe. Docs 08a/08b = reserva.
+- DOCS LIMPOS (fonte única = portal): §3 ANCORAGEM liberou a ferramenta (antes proibia "acessar internet"); §16 = regra de busca (vídeo/imagem/tutorial). Trocado "doc VÍDEOS" pela ferramenta em 02b/03/04/07. 08a/08b agora têm SÓ a regra (sem listas de URL). Links fixos que NÃO passam pela busca: instalador bstentec.com.br/busca, Instagram @bsten_ofc, e-mail gpsbspaga@gmail.com.
+- Bot: found=true→manda url+pergunta; found=false→texto/equipe. Tool config no Botclik (URL painel acima + instrução). Catálogo (vídeos+imagens+tutoriais) cresce no portal/videos-suporte.json, sem mexer no prompt.
 
 ## 🔧 Infra
 - VPS Hetzner root@178.156.182.239 (acesso por chave SSH bsten_vps no PC do usuário; CLI não acessa). Script backup-github.sh faz commit+push dos 3 repos.
