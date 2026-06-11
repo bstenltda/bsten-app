@@ -62,6 +62,12 @@ DOCS: `02a_COMERCIAL_FLUXO` · `02b_COMERCIAL_PERGUNTAS` · `02c_COMERCIAL_GATIL
 - Ambas vinham sub-entregando (~R$3/dia de R$25). Gargalo real = pós-clique (bot + follow-up).
 - Posso editar campanhas via MCP (ads_update_entity / ads_activate_entity).
 
+## 🎥 Busca dinâmica de vídeos (Botclik HTTP Request)
+- Botclik TEM ferramenta HTTP Request (GET/POST, headers, auth, timeout). Permite o bot consultar endpoint externo.
+- Solução p/ não editar docs a cada vídeo: pasta `video-api/` no repo — `videos.json` (FONTE ÚNICA, usuário edita só isso) + `buscar-video.js` (Netlify Function) + `buscar-video.php` (VPS) + README (deploy + config Botclik).
+- Endpoint `/api/buscar-video?q=...` → retorna {found,url,title,theme}. url:null => found:false (não envia). Bot configurado p/ usar found=true→manda, found=false→texto/equipe.
+- Deploy pendente (usuário escolhe Netlify Function ou PHP no servidor adsbs.com.br). Quando live, os docs 08a/08b viram fallback e podem encolher.
+
 ## 🔧 Infra
 - VPS Hetzner root@178.156.182.239 (acesso por chave SSH bsten_vps no PC do usuário; CLI não acessa). Script backup-github.sh faz commit+push dos 3 repos.
 - Repos: bsten-app (este), bsten-admin, bsten-landing, rastreapro, adsbs (funil, fora do escopo desta sessão), controlebs, bstecnico, bsten-ads-dashboard.

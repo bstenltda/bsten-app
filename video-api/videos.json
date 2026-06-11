@@ -1,0 +1,118 @@
+{
+  "_comment": "FONTE ÚNICA DE VERDADE dos vídeos/tutoriais. Edite SÓ este arquivo para adicionar/remover. url=null => o bot não envia (responde em texto). keywords = palavras que o cliente pode usar.",
+  "itens": [
+    {
+      "tema": "apresentacao",
+      "titulo": "Apresentação da BSTEN",
+      "tipo": "video",
+      "url": "https://adsbs.com.br/assets/v-apresentacao.mp4",
+      "keywords": ["apresentacao", "video", "conhecer", "sobre", "quem e", "geral", "tem video", "me mostra"]
+    },
+    {
+      "tema": "bloqueio",
+      "titulo": "Como funciona o bloqueio",
+      "tipo": "video",
+      "url": "https://adsbs.com.br/assets/v-como-funciona-o-bloqueio.mp4",
+      "keywords": ["bloqueio", "bloquear", "desliga", "desligar", "trava", "travar", "parar", "bloqueia"]
+    },
+    {
+      "tema": "rastreamento",
+      "titulo": "Como funciona o rastreamento",
+      "tipo": "video",
+      "url": "https://adsbs.com.br/assets/v-como-funciona-o-rastreamento.mp4",
+      "keywords": ["rastreamento", "rastrear", "gps", "localizacao", "localizar", "tempo real", "onde esta", "ao vivo"]
+    },
+    {
+      "tema": "bateria",
+      "titulo": "O que acontece se desligarem a bateria",
+      "tipo": "video",
+      "url": "https://adsbs.com.br/assets/v-o-que-acontece-se-desligarem-a-bateria.mp4",
+      "keywords": ["bateria", "cortar bateria", "desligar bateria", "tirar bateria", "energia", "sem energia"]
+    },
+    {
+      "tema": "ancora",
+      "titulo": "Função âncora",
+      "tipo": "video",
+      "url": "https://adsbs.com.br/assets/v-funcao-ancora.mp4",
+      "keywords": ["ancora", "funcao ancora", "cerca", "cerca virtual", "area", "perimetro", "geofence", "alerta de movimento"]
+    },
+    {
+      "tema": "compatibilidade",
+      "titulo": "Serve para carro, moto ou caminhão",
+      "tipo": "video",
+      "url": "https://adsbs.com.br/assets/v-serve-para-carro-moto-ou-caminhao.mp4",
+      "keywords": ["carro", "moto", "caminhao", "serve", "compativel", "veiculo", "qual veiculo", "funciona em"]
+    },
+    {
+      "tema": "instalacao-video",
+      "titulo": "Quem faz a instalação",
+      "tipo": "video",
+      "url": "https://adsbs.com.br/assets/v-quem-faz-a-instalacao.mp4",
+      "keywords": ["quem instala", "instalacao", "instalar", "como instala", "montar"]
+    },
+    {
+      "tema": "preco",
+      "titulo": "Quanto custa",
+      "tipo": "video",
+      "url": "https://adsbs.com.br/assets/v-quanto-custa.mp4",
+      "keywords": ["preco", "valor", "quanto custa", "custa", "mensalidade", "plano", "investimento"]
+    },
+    {
+      "tema": "escolher",
+      "titulo": "Por que escolher a BSTEN",
+      "tipo": "video",
+      "url": "https://adsbs.com.br/assets/v-por-que-escolher-a-bsten.mp4",
+      "keywords": ["por que escolher", "porque", "diferencial", "melhor", "confiavel", "confianca", "vale a pena"]
+    },
+    {
+      "tema": "instalador-busca",
+      "titulo": "Busca de instaladores parceiros",
+      "tipo": "link",
+      "url": "https://bstentec.com.br/busca",
+      "keywords": ["instalador", "tem na minha cidade", "instalador perto", "onde instalar", "buscar instalador"]
+    },
+
+    {
+      "tema": "senha",
+      "titulo": "Como recuperar / trocar a senha",
+      "tipo": "tutorial",
+      "url": null,
+      "keywords": ["senha", "esqueci senha", "trocar senha", "recuperar senha", "nova senha", "login"]
+    },
+    {
+      "tema": "boleto",
+      "titulo": "Como ver / emitir 2ª via do boleto",
+      "tipo": "tutorial",
+      "url": null,
+      "keywords": ["boleto", "segunda via", "2 via", "ver boleto", "onde pago", "fatura", "pagamento"]
+    },
+    {
+      "tema": "ativar-ancora",
+      "titulo": "Como ativar a função âncora",
+      "tipo": "tutorial",
+      "url": null,
+      "keywords": ["ativar ancora", "como ativo ancora", "configurar ancora", "ligar ancora"]
+    },
+    {
+      "tema": "baixar-app",
+      "titulo": "Como baixar / instalar o app",
+      "tipo": "tutorial",
+      "url": null,
+      "keywords": ["baixar app", "instalar app", "aplicativo", "onde baixo", "download app"]
+    },
+    {
+      "tema": "notificacoes",
+      "titulo": "Como ativar notificações / alertas",
+      "tipo": "tutorial",
+      "url": null,
+      "keywords": ["notificacao", "notificacoes", "alerta", "alertas", "aviso", "nao recebo alerta"]
+    },
+    {
+      "tema": "historico",
+      "titulo": "Como ver o histórico de rotas",
+      "tipo": "tutorial",
+      "url": null,
+      "keywords": ["historico", "rotas", "trajeto", "por onde andou", "percurso"]
+    }
+  ]
+}
