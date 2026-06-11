@@ -65,9 +65,11 @@ DOCS: `02a_COMERCIAL_FLUXO` · `02b_COMERCIAL_PERGUNTAS` · `02c_COMERCIAL_GATIL
 ## 🎥 Busca dinâmica de vídeos (Botclik HTTP Request)
 - Botclik TEM ferramenta HTTP Request (GET/POST, headers, auth, timeout). Permite o bot consultar endpoint externo.
 - Solução p/ não editar docs a cada vídeo: pasta `video-api/` no repo — `videos.json` (FONTE ÚNICA, usuário edita só isso) + `buscar-video.js` (Netlify Function) + `buscar-video.php` (VPS) + README (deploy + config Botclik).
-- Endpoint `/api/buscar-video?q=...` → retorna {found,url,title,theme}. url:null => found:false (não envia). Bot configurado p/ usar found=true→manda, found=false→texto/equipe.
-- Deploy: VPS com Node (PM2 + nginx). Arquivos: video-api/ (server.js, buscar-video.js, videos.json, INSTRUCAO_TI.md, instalar-vps.sh). TI subindo.
-- Bot: 01_GERAL §16 já manda a IA usar a ferramenta *Buscar vídeo* (HTTP Request, q=dúvida). found=true→manda+pergunta; found=false→texto/equipe. Docs 08a/08b = reserva. Quando estável, encolher 08a/08b.
+- LIVE (versão do TI): URL real `https://painel.adsbs.com.br/api/buscar-video?q=...` (GET/POST). Retorna {found, titulo, url}. url aponta p/ página `/v/...` (vídeo + botão "Voltar pro WhatsApp" + rastreio no placar). found=false quando não tem (não inventa).
+- Catálogo do TI: `videos-suporte.json` no servidor (TI gerencia; lê a cada busca, sem restart). 6 ativos + 4 placeholders url:null: serve-moto/carro, central, instalação, app.
+- TEMOS vídeo p/ ativar: serve-moto/carro (v-serve-para-carro-moto-ou-caminhao) e instalação (v-quem-faz-a-instalacao). NÃO temos: "central" (não gravado) e "app" (só prints, sem vídeo).
+- Minha versão em video-api/ (videos.json, adsbs.com.br) = protótipo de referência; a LIVE é a do TI.
+- Bot: 01_GERAL §16 manda a IA usar a ferramenta *Buscar vídeo* (HTTP Request). Tool config no Botclik (URL acima + instrução). found=true→manda+pergunta; found=false→texto/equipe. Docs 08a/08b = reserva.
 
 ## 🔧 Infra
 - VPS Hetzner root@178.156.182.239 (acesso por chave SSH bsten_vps no PC do usuário; CLI não acessa). Script backup-github.sh faz commit+push dos 3 repos.
