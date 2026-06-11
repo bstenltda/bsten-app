@@ -15,9 +15,10 @@ Limites do Botclick: PROMPT até 10.000 · cada DOC até 2.000. Por isso o COMER
 | 05_ATIVACAO.md | DOCS |
 | 06_COMPORTAMENTO.md | DOCS |
 | 07_EMPRESA.md | DOCS |
-| 08a_VIDEOS_VENDA.md | DOCS |
-| 08b_VIDEOS_SUPORTE_LINKS.md | DOCS |
+| 09_TAG_BSTEN.md | DOCS |
 | produto_BSTEN_PRO_BLINDADO.md | DOCS |
+
+(08a/08b removidos: vídeos/imagens/tutoriais vêm da busca dinâmica — a regra já está no prompt §16.)
 
 (O LEIA-ME é só seu guia — não precisa subir.)
 

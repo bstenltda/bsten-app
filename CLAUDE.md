@@ -25,6 +25,11 @@ DOCS: `02a_COMERCIAL_FLUXO` · `02b_COMERCIAL_PERGUNTAS` · `02c_COMERCIAL_GATIL
 - App BSTEN PRO: tempo real, bloqueio, função âncora, histórico, alertas, Street View.
 - Preços: equipamento *R$ 139,97* (única, frete grátis) + plataforma *R$ 35,97/mês* (sem fidelidade). 15 dias sem cobrança. Âncora: ~R$ 1,20/dia.
 - Pagamento: ANTECIPADO, só Pix ou boleto. NÃO tem cartão, NÃO tem pagamento na entrega.
+
+## 🏷️ Produto 2 — TAG BSTEN (localizador, doc 09_TAG_BSTEN)
+- Localizador *Bluetooth/proximidade* (NÃO é GPS em tempo real, NÃO bloqueia). Mostra localização pelo app BSTEN PRO. Pra itens/pessoas: mochila, bolsa, bike, ferramentas, crianças, idosos.
+- Preço: *R$ 50* única + *R$ 10/mês* (Pix/boleto antecipado). Funciona no MESMO login do app BSTEN PRO.
+- Bot só fala da TAG se PERGUNTAREM (foco = PRO BLINDADO). NUNCA chamar de GPS/tempo real/bloqueio. Pra veículo, indicar o PRO. §5 do GERAL já lista os 2 produtos.
 - NUNCA citar: BSTEN Solo/Smart/Start/Plus, 11 cidades, DDD 19.
 
 ## 💰 CHIP E RECORRÊNCIA (crítico — onde está o faturamento)
