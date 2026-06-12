@@ -1,35 +1,28 @@
-# BSTEN PRO BLINDADO — Pacote do Bot (Botclick) — REESTRUTURADO p/ limites de caracteres
+# BSTEN — Pacote do Bot (Botclick) — PROMPT ÚNICO
 
-Limites do Botclick: PROMPT até 10.000 · cada DOC até 2.000. Por isso o COMERCIAL virou 3 docs e os VÍDEOS viraram 2. Todas as regras foram mantidas — só reorganizadas.
+Desde que o Botclik liberou 50k no prompt, TUDO foi consolidado num só arquivo. Não há mais documentos separados.
 
 ## Onde colocar
 | Arquivo | Aba |
 |---|---|
 | 01_GERAL_PROMPT.md | **PROMPT** (só este) |
-| 02a_COMERCIAL_FLUXO.md | DOCS |
-| 02b_COMERCIAL_PERGUNTAS.md | DOCS |
-| 02c_COMERCIAL_GATILHOS.md | DOCS |
-| 02d_COMERCIAL_CHIP_UPGRADE.md | DOCS |
-| 03_SUPORTE.md | DOCS |
-| 04_FINANCEIRO.md | DOCS |
-| 05_ATIVACAO.md | DOCS |
-| 06_COMPORTAMENTO.md | DOCS |
-| 07_EMPRESA.md | DOCS |
-| 09_TAG_BSTEN.md | DOCS |
-| produto_BSTEN_PRO_BLINDADO.md | DOCS |
 
-(08a/08b removidos: vídeos/imagens/tutoriais vêm da busca dinâmica — a regra já está no prompt §16.)
+(O LEIA-ME é só seu guia — não sobe. Os docs antigos estão em `_arquivo_consolidado/` apenas como histórico — NÃO subir.)
 
-(O LEIA-ME é só seu guia — não precisa subir.)
+## Passos no Botclik
+1. PROMPT: apaga tudo e cola o `01_GERAL_PROMPT.md`.
+2. DOCS: **apaga TODOS os documentos** (já estão dentro do prompt).
+3. Ferramenta: mantém a HTTP Request *Buscar vídeo/tutorial* (e, quando o TI fizer, a *Consultar porta*).
+4. Aguarda "Sincronizado" e testa.
 
-## Passos
-1. PROMPT: apaga tudo e cola o 01_GERAL_PROMPT.md.
-2. DOCS: apaga todos os docs antigos (principalmente os que citam "BSTEN Solo" ou 11 cidades) e sobe os 11 acima.
-3. Aguarda "Sincronizado" e testa.
+## Não esquecer (config do Botclik, não é o prompt)
+- Tirar o prefixo **"BSTEN:"** (campo de nome do agente).
+- Mapear a resposta da ferramenta (`url`, `found`) na variável que o bot escreve — senão o link vem vazio.
 
 ## Testes rápidos
-- "Bom dia!" → só cumprimenta + "como posso ajudar?" (não despeja preço).
+- "bom dia" → só cumprimenta + "como posso ajudar?" (não despeja preço).
+- "tem vídeo do valor?" → link cru, sozinho, sem [texto](url).
 - "quero contratar" → qualifica (carro/moto?) e reserva com nome+WhatsApp; CPF só no fim.
-- "meu carro não liga, já tenho rastreador" → vira SUPORTE (pergunta do bloqueio), não roubo.
 - "tá caro" → âncora R$ 1,20/dia + 15 dias risco zero.
-- "quem instala?" → manda https://bstentec.com.br/busca
+- "vocês têm a tag?" → fala da TAG (R$50 + R$10/mês), sem chamar de GPS.
+- "roubaram minha moto" → remove emoji, não vende, oferece transferir.
